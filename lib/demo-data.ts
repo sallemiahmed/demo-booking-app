@@ -2,10 +2,10 @@
 export const DEMO_USERS = [
   {
     id: "user-001",
-    name: "Alex Morgan",
-    email: "alex@example.com",
+    name: "John Miller",
+    email: "john@example.com",
     password: "demo123",
-    image: "/images/avatars/alex.jpg",
+    image: "/images/avatars/john.png",
     timezone: "America/New_York",
     bio: "Product Designer & UX Consultant. 10+ years helping startups build better products.",
   },
@@ -14,25 +14,25 @@ export const DEMO_USERS = [
     name: "Sarah Chen",
     email: "sarah@example.com",
     password: "demo123",
-    image: "/images/avatars/sarah.jpg",
+    image: "/images/avatars/sarah.png",
     timezone: "America/Los_Angeles",
     bio: "Software Engineer & Tech Lead. Open to mentorship and consulting.",
   },
   {
     id: "user-003",
-    name: "Michael Johnson",
-    email: "michael@example.com",
+    name: "Mike Johnson",
+    email: "mike@example.com",
     password: "demo123",
-    image: "/images/avatars/michael.jpg",
+    image: "/images/avatars/mike.png",
     timezone: "Europe/London",
     bio: "Business Coach & Startup Advisor. Helping entrepreneurs scale.",
   },
   {
     id: "user-004",
-    name: "Emily Davis",
-    email: "emily@example.com",
+    name: "Emma Davis",
+    email: "emma@example.com",
     password: "demo123",
-    image: "/images/avatars/emily.jpg",
+    image: "/images/avatars/emma.png",
     timezone: "America/Chicago",
     bio: "Marketing Strategist. Specializing in growth and brand development.",
   },
@@ -41,7 +41,7 @@ export const DEMO_USERS = [
     name: "Demo User",
     email: "demo@example.com",
     password: "demo123",
-    image: "/images/avatars/demo.jpg",
+    image: "/images/avatars/demo.png",
     timezone: "America/New_York",
     bio: "Welcome to BookEasy! This is a demo account.",
   },
@@ -49,7 +49,7 @@ export const DEMO_USERS = [
 
 // Event types for each user
 export const DEMO_EVENT_TYPES = [
-  // Alex's event types
+  // John's event types
   {
     id: "evt-001",
     userId: "user-001",

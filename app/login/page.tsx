@@ -63,11 +63,11 @@ export default function LoginPage() {
             {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : "Quick Login (Demo User)"}
           </button>
           <button
-            onClick={() => handleQuickLogin("alex@example.com", "demo123")}
+            onClick={() => handleQuickLogin("john@example.com", "demo123")}
             disabled={loading}
             className="w-full flex items-center justify-center gap-2 bg-emerald-600 text-white py-3 rounded-lg font-medium hover:bg-emerald-700 transition disabled:opacity-50"
           >
-            {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : "Quick Login (Alex - Designer)"}
+            {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : "Quick Login (John - Designer)"}
           </button>
         </div>
 
